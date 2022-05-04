@@ -10,6 +10,8 @@
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.21557971014492755" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.2181851373202559" />
         <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.21557971014492755" />
+        <entry key="app/src/main/res/layout/received.xml" value="0.21557971014492755" />
+        <entry key="app/src/main/res/layout/sent.xml" value="0.25" />
         <entry key="app/src/main/res/layout/user_layout.xml" value="0.25" />
         <entry key="app/src/main/res/menu/menu.xml" value="0.15925925925925927" />
       </map>
