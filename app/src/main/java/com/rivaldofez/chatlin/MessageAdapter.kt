@@ -7,9 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.google.firebase.auth.FirebaseAuth
 import com.rivaldofez.chatlin.databinding.ReceivedBinding
 import com.rivaldofez.chatlin.databinding.SentBinding
-import com.rivaldofez.chatlin.databinding.UserLayoutBinding
 import com.rivaldofez.chatlin.model.Message
-import com.rivaldofez.chatlin.model.User
 
 class MessageAdapter(val context: Context, val messageList: ArrayList<Message>): RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
