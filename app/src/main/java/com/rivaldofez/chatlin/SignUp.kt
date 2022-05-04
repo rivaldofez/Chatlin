@@ -1,7 +1,9 @@
 package com.rivaldofez.chatlin
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
 import com.rivaldofez.chatlin.databinding.ActivitySignUpBinding
 
@@ -25,6 +27,14 @@ class SignUp : AppCompatActivity() {
     }
 
     private fun signUp(email: String, password: String) {
-
+        mAuth.createUserWithEmailAndPassword(email, password)
+            .addOnCompleteListener(this) { task ->
+                if(task.isSuccessful){
+                    val intent = Intent(this, Home::class.java )
+                    startActivity(intent)
+                } else {
+                    Toast.makeText(this, "Some error occured", Toast.LENGTH_SHORT).show()
+                }
+            }
     }
 }
