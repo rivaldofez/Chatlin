@@ -41,6 +41,7 @@ class SignUp : AppCompatActivity() {
                     mAuth.currentUser?.let { addUserToDatabase(name, email, it.uid) }
                     val intent = Intent(this, Home::class.java )
                     startActivity(intent)
+                    finish()
                 } else {
                     Toast.makeText(this, "Some error occured", Toast.LENGTH_SHORT).show()
                 }
