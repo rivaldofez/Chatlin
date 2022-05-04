@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "645326531990",
+    "project_id": "chatlin-34a9a",
+    "storage_bucket": "chatlin-34a9a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:645326531990:android:7e2368d018e668db6ac1b7",
+        "android_client_info": {
+          "package_name": "com.rivaldofez.chatlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "645326531990-5a111orekdqpgcd5n2n032i7pvhanfrk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDz4Qiws3H02Z6tjeamhTl6j5Rlvoltcdw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "645326531990-5a111orekdqpgcd5n2n032i7pvhanfrk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
